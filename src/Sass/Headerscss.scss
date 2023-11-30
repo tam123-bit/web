@@ -1,0 +1,132 @@
+header {
+  width: 100vw;
+  height: 140px;
+  position: fixed;
+  z-index: 4000;
+}
+header nav .navlogo img {
+  width: 150px;
+  cursor: pointer;
+}
+header nav {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.navcartimg img {
+  width: 40px;
+  cursor: pointer;
+}
+.navform {
+  width: 500px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.navforminput input {
+  width: 440px;
+  height: 40px;
+  position: relative;
+  left: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+}
+.navforminput input::placeholder {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  
+}
+
+.navfromicon {
+  width: 120px;
+  height: 40px;
+  background-color: #464c62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+.navcart {
+  position: relative;
+}
+.navcartheading h1 {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  z-index: 1000;
+}
+.navbarlist {
+  width: 100vw;
+  height: 60px;
+  background-color: #464c62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarlistwrap {
+  display: flex;
+  align-items: center;
+}
+.navbarlistitem h1 {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  padding: 0px 15px;
+  cursor: pointer;
+  border-right: 1px solid white;
+}
+.navbarlistitem h1:hover {
+  color: #e67e22;
+}
+.navbarlisthome h1:hover {
+  color: #e67e22;
+}
+.navbarlistblog h1:hover {
+  color: #e67e22;
+}
+
+.navbarlisthome h1 {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-right: 1px solid white;
+}
+.navbarlistblog h1 {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+

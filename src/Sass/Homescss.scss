@@ -1,0 +1,1997 @@
+.home {
+  width: 1150px;
+  height: 4400px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  top: 140px;
+}
+.homepage {
+  width: 100vw;
+  height: 4400px;
+  position: relative;
+}
+
+.banner img {
+  width: 100vw;
+  height: 400px;
+  cursor: pointer;
+  position: relative;
+  top: 140px;
+  width: 100vw;
+  height: 400px;
+  cursor: pointer;
+  position: relative;
+  top: 140px;
+}
+.sandal {
+  position: relative;
+  top: 10px;
+}
+.sandalicon {
+  font-size: 20px;
+  cursor: pointer;
+  animation: icon 1s linear infinite;
+}
+@keyframes icon {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.sandalheading h1 {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  left: 5px;
+}
+.sandalheading {
+  display: flex;
+  align-items: center;
+}
+.sandalhr hr {
+  height: 3px;
+  border-radius: 50px;
+  background-color: #f1c40f;
+  position: relative;
+  top: 5px;
+  border: none;
+  outline: none;
+}
+.sandalwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  cursor: pointer;
+}
+.sandalitem {
+  width: 270px;
+  position: relative;
+  margin: 20px 0px;
+}
+.sandalimg img {
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.sandalimg {
+  border: 1.5px solid whitesmoke;
+  padding: 3px 3px;
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+}
+.sandalimg img:hover {
+  transform: scale(1.1);
+}
+.sandalpadding {
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sandaltitle h1 {
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  top: 10px;
+}
+.sandalprice {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 25px;
+}
+.sandalprice h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  color: red;
+}
+.sandalprice h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  color: grey;
+  position: relative;
+  left: 5px;
+  text-decoration: line-through;
+}
+.sandalnam {
+  position: relative;
+  top: 50px;
+}
+.sandalcao {
+  position: relative;
+  top: 90px;
+}
+.sandalao {
+  position: relative;
+  top: 140px;
+}
+.sandalkinh {
+  position: relative;
+  top: 190px;
+}
+.sandalphu {
+  position: relative;
+  top: 240px;
+}
+.detai {
+  width: 1150px;
+  height: 2900px;
+  position: relative;
+  top: 145px;
+  margin: 0 auto;
+}
+.detaiheading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+.detaiheading h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.detaiheading h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 5px;
+}
+.detaiheading h3 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 10px;
+  color: #3498db;
+}
+.detaiwrap {
+  position: relative;
+  top: 20px;
+  background-color: white;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+}
+.detaiimg img {
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+.detaiitem {
+  position: absolute;
+  left: 360px;
+  top: 5px;
+  z-index: 1000;
+}
+
+.detaititle h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  width: 700px;
+}
+.detaima {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+.detaiprice {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.detaiprice h1 {
+  font-size: 35px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #cc0001;
+}
+.detaiprice h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: line-through;
+  position: relative;
+  left: 10px;
+  color: gray;
+}
+.detaicolor {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.detaicolor h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: gray;
+}
+.detailistimg {
+  position: relative;
+  top: 50px;
+}
+.detailistimg {
+  display: flex;
+  align-items: center;
+}
+.detaiimglist {
+  border: 2px solid gray;
+  margin: 0px 3px;
+  position: relative;
+  right: 3px;
+  border-radius: 5px;
+}
+.detaiimglist img {
+  width: 70px;
+  height: 85px;
+  padding: 4px 4px;
+  cursor: pointer;
+}
+.detaicolor h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 14px;
+}
+.detaima h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: gray;
+}
+.detaima h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 10px;
+}
+.detaisize {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+.detaisize h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: gray;
+}
+.detaiquantityheading h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+}
+.detaiquantityflex {
+  width: 100px;
+  height: 30px;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0px 3px;
+  left: 20px;
+  border-radius: 2px;
+}
+.detaiquantityflex span {
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.detaiquantityflex h1 {
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 400;
+  cursor: pointer;
+}
+.detaiquantity {
+  position: relative;
+  top: 90px;
+  display: flex;
+  align-items: center;
+}
+.detaisize h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 10px;
+}
+.detaibtn button {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border: 2px solid gray;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.detaiwrapbtn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  right: 5px;
+}
+.detaibtnone button {
+  width: 200px;
+  height: 50px;
+  background-color: #cc0001;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+.detaitotal {
+  display: flex;
+  align-items: center;
+}
+.detaitwo button {
+  width: 200px;
+  height: 50px;
+  background-color: #cc0001;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  left: 10px;
+}
+
+.detaitotal span {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+.detaitotal {
+  position: relative;
+  top: 110px;
+}
+.detaiuser {
+  border: 1.5px solid gray;
+  width: 300px;
+  height: 430px;
+  position: absolute;
+  left: 830px;
+  top: 37px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+.detaiuserheading {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+}
+.detaiuserheading h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 10px;
+}
+.detaiuserheading img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.detaiuseritem img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.detaiuseritem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  position: relative;
+  left: 10px;
+  cursor: pointer;
+}
+.detaiuseritem h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+}
+.detaiuserwrap {
+  position: relative;
+  top: 10px;
+}
+
+.detaiidwrap {
+  position: absolute;
+  left: 830px;
+  top: 466px;
+}
+.detaiiditem {
+  width: 300px;
+  height: 320px;
+  border: 1.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 5px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.detaiidimg img {
+  width: 280px;
+  height: 240px;
+  cursor: pointer;
+}
+.detaiidtitle h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  top: 3px;
+}
+.detaiidflex {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+.detaiidflex h1 {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.detaiidflex h2 {
+  color: #b2bec3;
+  font-size: 15px;
+  text-decoration: line-through;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+}
+
+.detaiidcolor {
+  width: 800px;
+  height: 2280px;
+  border: 1.5px solid gray;
+  position: absolute;
+  overflow-y: scroll;
+  top: 560px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.detaiidcolorheading h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+.detaiidcolorheading {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.detaiidcolorheading h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: gray;
+  padding: 5px 0px;
+}
+.productdetai {
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.productdetai h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+.productdetaiidlistimg img {
+  position: relative;
+  top: 10px;
+  width: 780px;
+  height: 600px;
+  cursor: pointer;
+  margin: 15px 0px;
+  object-fit: cover;
+}
+
+.cartlistheading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 4px;
+}
+.cartlistheading h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartlistheading h2 {
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #3498db;
+  position: relative;
+  left: 5px;
+}
+
+.cartlistleft {
+  position: absolute;
+  top: 30px;
+  z-index: 1000;
+  width: 300px;
+  height: 1150px;
+  overflow: hidden;
+  border: 1.5px solid white;
+}
+.cartleft {
+  width: 300px;
+  height: 300px;
+}
+
+.cartleftflex {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 40px;
+  background-color: #464c62;
+}
+.cartkinhimg img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.cartkinhitem {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  position: relative;
+  left: 10px;
+}
+.cartkinhprice h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  width: 205px;
+  position: relative;
+  bottom: 5px;
+}
+.cartkinhprice h2 {
+  color: black;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  top: 3px;
+}
+.cartkinhprice {
+  position: relative;
+  left: 10px;
+}
+
+.cartleftheadingapi h1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  left: 25px;
+}
+
+.listli {
+  border-bottom: 1.5px solid black;
+}
+.listli li:hover {
+  background-color: #464c62;
+  color: #f1c40f;
+}
+.listli li {
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+  padding: 10px 15px;
+  position: relative;
+}
+.carttop {
+  width: 300px;
+  height: 40px;
+  background-color: #464c62;
+  position: relative;
+  top: 10px;
+  right: 2px;
+}
+.carttop h1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.cartkinh {
+  position: relative;
+  top: 10px;
+}
+.cartlistrigth {
+  position: absolute;
+  top: 30px;
+  left: 310px;
+  width: 840px;
+  z-index: 1000;
+}
+.cartselect {
+  width: 840px;
+  height: 40px;
+  background-color: #464c62;
+  border: 1.5px solid whitesmoke;
+  padding: 0px 10px;
+  position: relative;
+}
+.cartselectheading h1 {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+.cartselectflex {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -1px;
+  left: 675px;
+  z-index: 1000;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartselectgrid {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 760px;
+  z-index: 1000;
+}
+.cartoption {
+  position: absolute;
+  top: 40px;
+  background-color: white;
+  left: 650px;
+  z-index: 1000;
+  width: 190px;
+}
+.cartoptionlist li {
+  list-style: none;
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-weight: 700;
+  transition: 0.4s all;
+  animation: list 0.4s ease;
+  position: relative;
+}
+@keyframes list {
+  from {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.cartoptionlist li:hover {
+  background-color: #b2bec3;
+}
+.cartselectgridrigth i {
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  bottom: 1px;
+}
+.cartselectgridleft i {
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  bottom: 1px;
+}
+.cartselectone h1 {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: white;
+}
+.cartselectheading h2 {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  text-transform: capitalize;
+  color: white;
+}
+.cartleftflexbar i {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+}
+.cartselecticon i {
+  position: relative;
+  left: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+.cartselectheading {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  z-index: 1000;
+}
+
+.loader img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  animation: spin 1s ease;
+}
+.loader {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 22000;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pagewrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.pageprev {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1.4px solid black;
+}
+.pagenext {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1.4px solid black;
+}
+.pageflex {
+  display: flex;
+  align-items: center;
+}
+.pagebtn button {
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0px 5px;
+}
+
+.gridwrap {
+  width: 840px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.grid {
+  position: relative;
+  padding: 20px 0px;
+}
+
+.sandalgrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 35px;
+}
+.gridviewwrap {
+  overflow-y: scroll;
+  height: 1000px;
+  position: relative;
+  bottom: 20px;
+  cursor: pointer;
+}
+.gridviewwrap::-webkit-scrollbar {
+  width: 10px;
+  background-color: white;
+}
+.gridviewitem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.gridviewsize {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.gridviewsize h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.gridviewsize h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 0px 5px;
+}
+.gridviewcolor {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.gridviewcolor h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.gridviewcolor h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 0px 5px;
+}
+.gridviewtitle h1 {
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.gridviewiflex {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+.gridviewiflex h1 {
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #cc0001;
+}
+.gridviewitemheading {
+  position: relative;
+  left: 20px;
+  bottom: 70px;
+}
+.gridviewiflex h2 {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+  text-decoration: line-through;
+}
+.griviewbtn button {
+  position: relative;
+  top: 50px;
+  padding: 10px 25px;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.boxitem {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+.box {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6000;
+  width: 598px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  animation: box 1s ease;
+}
+@keyframes box {
+  from {
+    transform: translateY(0px);
+    transform: translateX(0);
+  }
+  to {
+    transform: translateY(30px);
+    transform: translateX(-50%);
+  }
+}
+.boxbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1100;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+.boximg img {
+  width: 180px;
+  height: 180px;
+  cursor: pointer;
+}
+.boxflex {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+}
+.boxheading h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  width: 350px;
+  color: black;
+}
+.boxpriceflex {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+.boxpriceflex h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  color: #cc0001;
+}
+.boxbtnflex {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.boxbtncart {
+  width: 150px;
+  height: 30px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxshop {
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
+}
+.boxshop button {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.boxbtncart button {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.boxheading {
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.boxheading h2 {
+  font-size: 13px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  color: black;
+  top: 5px;
+}
+.cartbox {
+  position: fixed;
+  top: 63px;
+  right: 65px;
+  width: 300px;
+  height: 300px;
+  z-index: 5000;
+  background-color: white;
+  cursor: pointer;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.cartbox::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+.cartbox::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: black;
+}
+.cartboximg img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.cartboxitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
+.cartboxflex h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  bottom: 12px;
+}
+.cartboxflex {
+  position: relative;
+  left: 6px;
+}
+.cartboxflex h2 {
+  color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  top: 3px;
+}
+.cartboxicon {
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 8px;
+  bottom: 25px;
+}
+.search {
+  position: absolute;
+  top: 60px;
+  left: 445px;
+  width: 500px;
+  height: 600px;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+}
+.searchitem {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+}
+.searchimg img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.searchheading h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.searchheading {
+  position: relative;
+  left: 15px;
+}
+.searchprice {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 5px;
+}
+.searchprice h1 {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #cc0001;
+}
+.searchprice h2 {
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 10px;
+  text-decoration: line-through;
+}
+.cartboxheading h1 {
+  position: fixed;
+  top: 63px;
+  right: 65px;
+  width: 300px;
+  height: 30px;
+  z-index: 5000;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartboxflexheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  position: relative;
+  top: 40px;
+}
+.cartboxflexheading h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartboxflexheading h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartboxlorem h1 {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 5px;
+  z-index: 1000;
+}
+.cartboxloremall h1 {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 165px;
+  z-index: 1000;
+}
+.cart {
+  position: relative;
+  top: 140px;
+  background-color: white;
+  width: 100vw;
+  height: 600px;
+}
+.cartheadingdetai {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+}
+.cartheadingdetai h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.cartheadingdetai h2 {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.carticonflex {
+  position: relative;
+  top: 120px;
+}
+.cartuser {
+  padding: 0px 90px;
+}
+.carticonflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartuser h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  right: 50px;
+  top: 5px;
+}
+.cartuser h2 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  right: 15px;
+  top: 5px;
+}
+.cartflex {
+  position: relative;
+  top: 150px;
+  width: 1100px;
+  height: 360px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1.4px solid black;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+.cartleft {
+  width: 450px;
+  height: 350px;
+}
+.cartfleximg img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.cartflexitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartflextitle h1 {
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  width: 290px;
+}
+.cartflextitle {
+  position: relative;
+  left: 10px;
+}
+.cartflextitle h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: red;
+  padding: 3px 0px;
+}
+
+.cartflexinput span {
+  font-size: 30px;
+}
+.cartleftheading h1 {
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cartflexwrap {
+  position: relative;
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 5px 5px;
+}
+.cartflexwrap::-webkit-scrollbar {
+  width: 5px;
+}
+.cartflexwrap::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.cartflexicon {
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  bottom: 5px;
+  left: 55px;
+}
+
+.cartflexinput span {
+  width: 25px;
+  height: 25px;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.cartflexinput h1 {
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin: 0px 3px;
+}
+.cartflexinput {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 100px;
+  top: 5px;
+}
+.cartsumflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.cartsumflex h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartsumflex h2 {
+  font-size: 25px;
+  border: 1.5px solid black;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.cartsuminput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid grey;
+  width: 427px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+}
+.cartsumdelete {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border: 1.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cartsumcheckicon {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border: 1.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cartsuminputone input {
+  height: 40px;
+  width: 347px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.cartlistflex {
+  position: relative;
+  top: 30px;
+}
+.cartlistflexone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.cartlistflexone h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartlistflexone h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartno {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  font-weight: 400;
+}
+.cartrigth {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  width: 600px;
+}
+
+.cartrigthheading {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cartrigthheading h1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartrigthheading h2 {
+  font-size: 15px;
+  position: relative;
+  left: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+}
+.cartrigthselect input {
+  width: 180px;
+  height: 30px;
+  border: 1.4px solid black;
+  margin: 0px 10px;
+  position: relative;
+  right: 10px;
+  outline: none;
+  color: black;
+}
+.cartrigthselect input::placeholder {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 10px;
+  color: black;
+  font-weight: 400;
+}
+.cartrigthflexinput {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartrigthflexinput input {
+  width: 180px;
+  height: 30px;
+  border: 1.4px solid black;
+  margin: 0px 10px;
+  position: relative;
+  right: 10px;
+  outline: none;
+  color: black;
+}
+.cartadddress input {
+  width: 580px;
+  height: 30px;
+  border: 1.4px solid black;
+  outline: none;
+}
+.cartadddress input::placeholder {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 10px;
+  color: black;
+  font-weight: 400;
+}
+.cartadddress {
+  position: relative;
+  top: 40px;
+}
+.cartrigthselect {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartrigthflexinput input::placeholder {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 10px;
+  color: black;
+  font-weight: 400;
+}
+.carttextheading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 8px;
+}
+.carttextheading h1 {
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+}
+.carttextheading h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: red;
+}
+.carttext {
+  position: relative;
+  top: 40px;
+}
+.carttexttera textarea {
+  width: 580px;
+  height: 40px;
+  border: 1.4px solid black;
+  position: relative;
+  top: 15px;
+  outline: none;
+  overflow-x: hidden;
+}
+.carttexttera textarea::placeholder {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  left: 5px;
+  color: black;
+  font-weight: 400;
+  top: 5px;
+}
+.carttotal button {
+  position: relative;
+  top: 70px;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+.headinginput p {
+  color: red;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  top: 3px;
+}
+.headingcart p {
+  color: red;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  top: 3px;
+}
+.cartadddress p {
+  color: red;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  top: 3px;
+}
+.carttexttera p {
+  color: red;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+}
+.searchterm {
+  width: 100vw;
+  height: 1400px;
+  position: relative;
+  top: 140px;
+}
+.sandalgrisearch {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cartselectcolor {
+  position: absolute;
+  left: 400px;
+  z-index: 1000;
+}
+.cartlist {
+  width: 1160px;
+  height: 1250px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  top: 145px;
+}
+
+.shoppage {
+  width: 100vw;
+  position: relative;
+  top: 140px;
+  padding-bottom: 120px;
+}
+.shoppageitem {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  top: 5px;
+}
+.shopbanner img {
+  width: 100vw;
+  height: 600px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+}
+.shopwraplist {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  top: 45px;
+}
+.shopflexitem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.shopflexitem h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  left: 30%;
+}
+.shopitem h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  top: 5px;
+}
+.shopitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+.shopitem img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #b2bec3;
+  border-radius: 50%;
+  padding: 5px 5px;
+}
+.shopwrap {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 10px #b2bec3;
+  position: relative;
+  height: 100px;
+  background-color: white;
+  cursor: pointer;
+}
+.shoplistleft {
+  display: flex;
+  align-items: center;
+}
+
+.shoplistflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.shoplistdata {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3px;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #b2bec3;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0px 10px;
+  position: relative;
+  right: 10px;
+}
+.shoplistdata h1 {
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.sandelpos {
+  position: relative;
+  top: 70px;
+}
+
+.listopencolorwrap {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 9px #b2bec3;
+  border-radius: 4px;
+  height: 50px;
+  position: absolute;
+  top: 33px;
+  left: 0px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.listopencolor {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+  position: relative;
+  left: 5px;
+}
+.listopencolor button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0px 10px;
+  position: relative;
+}
+.listopencolor input {
+  width: 20px;
+  height: 20px;
+}
+.listopencolor h1 {
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  text-transform: capitalize;
+}
+.clitem {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+.clitem h1 {
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+}
+.clitem button {
+  position: relative;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0px 7px;
+}
+.clitem button i{
+  color: blue;
+}
+.clflex {
+  display: flex;
+  align-items: center;
+}
